@@ -1,0 +1,13 @@
+A:\Universidad\LPOO\ProyectoSemaforos\ProyectoSemaforosView\x64\Debug\ProyectoSemaforosView.vcxproj.AssemblyReference.cache
+A:\Universidad\LPOO\ProyectoSemaforos\ProyectoSemaforosView\x64\Debug\ProyectoSemaforosView.frmBandejaEntrada.resources
+A:\Universidad\LPOO\ProyectoSemaforos\ProyectoSemaforosView\x64\Debug\ProyectoSemaforosView.frmCreadorUsuarios.resources
+A:\Universidad\LPOO\ProyectoSemaforos\ProyectoSemaforosView\x64\Debug\ProyectoSemaforosView.frmEditarUsuario.resources
+A:\Universidad\LPOO\ProyectoSemaforos\ProyectoSemaforosView\x64\Debug\ProyectoSemaforosView.frmEliminarUsuario.resources
+A:\Universidad\LPOO\ProyectoSemaforos\ProyectoSemaforosView\x64\Debug\ProyectoSemaforosView.frmEnvioMensajes.resources
+A:\Universidad\LPOO\ProyectoSemaforos\ProyectoSemaforosView\x64\Debug\ProyectoSemaforosView.frmLogin.resources
+A:\Universidad\LPOO\ProyectoSemaforos\ProyectoSemaforosView\x64\Debug\ProyectoSemaforosView.frmVistaAdministrador.resources
+A:\Universidad\LPOO\ProyectoSemaforos\ProyectoSemaforosView\x64\Debug\ProyectoSemaforosView.frmVistaOperario.resources
+A:\Universidad\LPOO\ProyectoSemaforos\ProyectoSemaforosView\x64\Debug\ProyectoSemaforosView.frmVistaRH.resources
+A:\Universidad\LPOO\ProyectoSemaforos\ProyectoSemaforosView\x64\Debug\ProyectoSemaforosView.frmVistaSupervisor.resources
+A:\Universidad\LPOO\ProyectoSemaforos\ProyectoSemaforosView\x64\Debug\ProyectoSemaforosView.vcxproj.GenerateResource.cache
+A:\Universidad\LPOO\ProyectoSemaforos\ProyectoSemaforosView\x64\Debug\Proyecto.A2815A57.Up2Date
