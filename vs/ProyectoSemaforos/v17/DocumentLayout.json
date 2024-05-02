@@ -1,0 +1,123 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "A:\\Universidad\\LPOO\\ProyectoSemaforos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A5027C93-668B-4318-B044-6E7011B4DE03}|ProyectoSemaforosView\\ProyectoSemaforosView.vcxproj|A:\\Universidad\\LPOO\\ProyectoSemaforos\\ProyectoSemaforosView\\frmVistaSupervisor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form",
+      "RelativeMoniker": "D:0:0:{A5027C93-668B-4318-B044-6E7011B4DE03}|ProyectoSemaforosView\\ProyectoSemaforosView.vcxproj|solutionrelative:ProyectoSemaforosView\\frmVistaSupervisor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5027C93-668B-4318-B044-6E7011B4DE03}|ProyectoSemaforosView\\ProyectoSemaforosView.vcxproj|A:\\Universidad\\LPOO\\ProyectoSemaforos\\ProyectoSemaforosView\\frmVistaRH.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A5027C93-668B-4318-B044-6E7011B4DE03}|ProyectoSemaforosView\\ProyectoSemaforosView.vcxproj|solutionrelative:ProyectoSemaforosView\\frmVistaRH.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5027C93-668B-4318-B044-6E7011B4DE03}|ProyectoSemaforosView\\ProyectoSemaforosView.vcxproj|A:\\Universidad\\LPOO\\ProyectoSemaforos\\ProyectoSemaforosView\\frmVistaRH.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form",
+      "RelativeMoniker": "D:0:0:{A5027C93-668B-4318-B044-6E7011B4DE03}|ProyectoSemaforosView\\ProyectoSemaforosView.vcxproj|solutionrelative:ProyectoSemaforosView\\frmVistaRH.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5027C93-668B-4318-B044-6E7011B4DE03}|ProyectoSemaforosView\\ProyectoSemaforosView.vcxproj|A:\\Universidad\\LPOO\\ProyectoSemaforos\\ProyectoSemaforosView\\frmEnvioMensajes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form",
+      "RelativeMoniker": "D:0:0:{A5027C93-668B-4318-B044-6E7011B4DE03}|ProyectoSemaforosView\\ProyectoSemaforosView.vcxproj|solutionrelative:ProyectoSemaforosView\\frmEnvioMensajes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5027C93-668B-4318-B044-6E7011B4DE03}|ProyectoSemaforosView\\ProyectoSemaforosView.vcxproj|A:\\Universidad\\LPOO\\ProyectoSemaforos\\ProyectoSemaforosView\\frmLogin.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form",
+      "RelativeMoniker": "D:0:0:{A5027C93-668B-4318-B044-6E7011B4DE03}|ProyectoSemaforosView\\ProyectoSemaforosView.vcxproj|solutionrelative:ProyectoSemaforosView\\frmLogin.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 345,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmVistaRH.h",
+              "DocumentMoniker": "A:\\Universidad\\LPOO\\ProyectoSemaforos\\ProyectoSemaforosView\\frmVistaRH.h",
+              "RelativeDocumentMoniker": "ProyectoSemaforosView\\frmVistaRH.h",
+              "ToolTip": "A:\\Universidad\\LPOO\\ProyectoSemaforos\\ProyectoSemaforosView\\frmVistaRH.h",
+              "RelativeToolTip": "ProyectoSemaforosView\\frmVistaRH.h",
+              "ViewState": "AQIAAO8AAAAAAAAAAAAtwPkAAABqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-02T17:13:13.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmVistaSupervisor.h [Dise\u00F1o]",
+              "DocumentMoniker": "A:\\Universidad\\LPOO\\ProyectoSemaforos\\ProyectoSemaforosView\\frmVistaSupervisor.h",
+              "RelativeDocumentMoniker": "ProyectoSemaforosView\\frmVistaSupervisor.h",
+              "ToolTip": "A:\\Universidad\\LPOO\\ProyectoSemaforos\\ProyectoSemaforosView\\frmVistaSupervisor.h [Dise\u00F1o]",
+              "RelativeToolTip": "ProyectoSemaforosView\\frmVistaSupervisor.h [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-02T17:13:02.217Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmEnvioMensajes.h [Dise\u00F1o]",
+              "DocumentMoniker": "A:\\Universidad\\LPOO\\ProyectoSemaforos\\ProyectoSemaforosView\\frmEnvioMensajes.h",
+              "RelativeDocumentMoniker": "ProyectoSemaforosView\\frmEnvioMensajes.h",
+              "ToolTip": "A:\\Universidad\\LPOO\\ProyectoSemaforos\\ProyectoSemaforosView\\frmEnvioMensajes.h [Dise\u00F1o]",
+              "RelativeToolTip": "ProyectoSemaforosView\\frmEnvioMensajes.h [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-02T17:03:21.401Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmVistaRH.h [Dise\u00F1o]",
+              "DocumentMoniker": "A:\\Universidad\\LPOO\\ProyectoSemaforos\\ProyectoSemaforosView\\frmVistaRH.h",
+              "RelativeDocumentMoniker": "ProyectoSemaforosView\\frmVistaRH.h",
+              "ToolTip": "A:\\Universidad\\LPOO\\ProyectoSemaforos\\ProyectoSemaforosView\\frmVistaRH.h [Dise\u00F1o]",
+              "RelativeToolTip": "ProyectoSemaforosView\\frmVistaRH.h [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-02T16:51:36.786Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmLogin.h [Dise\u00F1o]",
+              "DocumentMoniker": "A:\\Universidad\\LPOO\\ProyectoSemaforos\\ProyectoSemaforosView\\frmLogin.h",
+              "RelativeDocumentMoniker": "ProyectoSemaforosView\\frmLogin.h",
+              "ToolTip": "A:\\Universidad\\LPOO\\ProyectoSemaforos\\ProyectoSemaforosView\\frmLogin.h [Dise\u00F1o]",
+              "RelativeToolTip": "ProyectoSemaforosView\\frmLogin.h [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-02T16:23:51.142Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 168,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
