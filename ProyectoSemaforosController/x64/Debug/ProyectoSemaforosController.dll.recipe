@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>A:\Universidad\LPOO\ProyectoSemaforos\x64\Debug\ProyectoSemaforosModel.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>A:\Universidad\LPOO\ProyectoSemaforos\x64\Debug\ProyectoSemaforosController.dll</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>
