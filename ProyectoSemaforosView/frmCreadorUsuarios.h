@@ -47,7 +47,7 @@ namespace ProyectoSemaforosView {
 	private: System::Windows::Forms::TextBox^ textBox3;
 
 	private: System::Windows::Forms::TextBox^ textBox1;
-	private: System::Windows::Forms::DateTimePicker^ dateTimePicker1;
+
 	private: System::Windows::Forms::ComboBox^ comboBox1;
 	private: System::Windows::Forms::Button^ button1;
 	private: System::Windows::Forms::GroupBox^ groupBox3;
@@ -58,6 +58,7 @@ namespace ProyectoSemaforosView {
 	private: System::Windows::Forms::Label^ label2;
 	private: System::Windows::Forms::TextBox^ textBox6;
 	private: System::Windows::Forms::TextBox^ textBox5;
+	private: System::Windows::Forms::TextBox^ textBox7;
 
 
 	protected:
@@ -76,7 +77,6 @@ namespace ProyectoSemaforosView {
 		void InitializeComponent(void)
 		{
 			this->groupBox1 = (gcnew System::Windows::Forms::GroupBox());
-			this->dateTimePicker1 = (gcnew System::Windows::Forms::DateTimePicker());
 			this->comboBox1 = (gcnew System::Windows::Forms::ComboBox());
 			this->textBox4 = (gcnew System::Windows::Forms::TextBox());
 			this->textBox3 = (gcnew System::Windows::Forms::TextBox());
@@ -95,13 +95,14 @@ namespace ProyectoSemaforosView {
 			this->label9 = (gcnew System::Windows::Forms::Label());
 			this->label10 = (gcnew System::Windows::Forms::Label());
 			this->groupBox2 = (gcnew System::Windows::Forms::GroupBox());
+			this->textBox7 = (gcnew System::Windows::Forms::TextBox());
 			this->groupBox1->SuspendLayout();
 			this->groupBox3->SuspendLayout();
 			this->SuspendLayout();
 			// 
 			// groupBox1
 			// 
-			this->groupBox1->Controls->Add(this->dateTimePicker1);
+			this->groupBox1->Controls->Add(this->textBox7);
 			this->groupBox1->Controls->Add(this->comboBox1);
 			this->groupBox1->Controls->Add(this->textBox4);
 			this->groupBox1->Controls->Add(this->textBox3);
@@ -123,15 +124,6 @@ namespace ProyectoSemaforosView {
 			this->groupBox1->TabIndex = 0;
 			this->groupBox1->TabStop = false;
 			this->groupBox1->Text = L"Nuevo Usuario";
-			// 
-			// dateTimePicker1
-			// 
-			this->dateTimePicker1->Location = System::Drawing::Point(243, 316);
-			this->dateTimePicker1->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->dateTimePicker1->Name = L"dateTimePicker1";
-			this->dateTimePicker1->Size = System::Drawing::Size(336, 23);
-			this->dateTimePicker1->TabIndex = 3;
-			this->dateTimePicker1->Value = System::DateTime(1999, 3, 25, 0, 0, 0, 0);
 			// 
 			// comboBox1
 			// 
@@ -303,6 +295,13 @@ namespace ProyectoSemaforosView {
 			this->groupBox2->TabIndex = 5;
 			this->groupBox2->TabStop = false;
 			this->groupBox2->Text = L"Horario Laboral";
+			// 
+			// textBox7
+			// 
+			this->textBox7->Location = System::Drawing::Point(243, 316);
+			this->textBox7->Name = L"textBox7";
+			this->textBox7->Size = System::Drawing::Size(336, 23);
+			this->textBox7->TabIndex = 3;
 			// 
 			// frmCreadorUsuarios
 			// 
