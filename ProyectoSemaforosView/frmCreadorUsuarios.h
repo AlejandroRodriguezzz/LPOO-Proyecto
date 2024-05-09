@@ -59,6 +59,7 @@ namespace ProyectoSemaforosView {
 	private: System::Windows::Forms::TextBox^ textBox6;
 	private: System::Windows::Forms::TextBox^ textBox5;
 	private: System::Windows::Forms::TextBox^ textBox7;
+	private: System::Windows::Forms::Button^ button2;
 
 
 	protected:
@@ -77,6 +78,7 @@ namespace ProyectoSemaforosView {
 		void InitializeComponent(void)
 		{
 			this->groupBox1 = (gcnew System::Windows::Forms::GroupBox());
+			this->textBox7 = (gcnew System::Windows::Forms::TextBox());
 			this->comboBox1 = (gcnew System::Windows::Forms::ComboBox());
 			this->textBox4 = (gcnew System::Windows::Forms::TextBox());
 			this->textBox3 = (gcnew System::Windows::Forms::TextBox());
@@ -95,7 +97,7 @@ namespace ProyectoSemaforosView {
 			this->label9 = (gcnew System::Windows::Forms::Label());
 			this->label10 = (gcnew System::Windows::Forms::Label());
 			this->groupBox2 = (gcnew System::Windows::Forms::GroupBox());
-			this->textBox7 = (gcnew System::Windows::Forms::TextBox());
+			this->button2 = (gcnew System::Windows::Forms::Button());
 			this->groupBox1->SuspendLayout();
 			this->groupBox3->SuspendLayout();
 			this->SuspendLayout();
@@ -124,6 +126,13 @@ namespace ProyectoSemaforosView {
 			this->groupBox1->TabIndex = 0;
 			this->groupBox1->TabStop = false;
 			this->groupBox1->Text = L"Nuevo Usuario";
+			// 
+			// textBox7
+			// 
+			this->textBox7->Location = System::Drawing::Point(243, 316);
+			this->textBox7->Name = L"textBox7";
+			this->textBox7->Size = System::Drawing::Size(336, 23);
+			this->textBox7->TabIndex = 3;
 			// 
 			// comboBox1
 			// 
@@ -227,12 +236,12 @@ namespace ProyectoSemaforosView {
 			// button1
 			// 
 			this->button1->BackColor = System::Drawing::Color::Silver;
-			this->button1->Location = System::Drawing::Point(308, 410);
+			this->button1->Location = System::Drawing::Point(341, 410);
 			this->button1->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button1->Name = L"button1";
-			this->button1->Size = System::Drawing::Size(241, 25);
+			this->button1->Size = System::Drawing::Size(160, 25);
 			this->button1->TabIndex = 1;
-			this->button1->Text = L"Generar Usuario y Contraseña";
+			this->button1->Text = L"Crear Usuario";
 			this->button1->UseVisualStyleBackColor = false;
 			this->button1->Click += gcnew System::EventHandler(this, &frmCreadorUsuarios::button1_Click);
 			// 
@@ -253,7 +262,7 @@ namespace ProyectoSemaforosView {
 			// 
 			// textBox6
 			// 
-			this->textBox6->Location = System::Drawing::Point(101, 79);
+			this->textBox6->Location = System::Drawing::Point(110, 79);
 			this->textBox6->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->textBox6->Name = L"textBox6";
 			this->textBox6->Size = System::Drawing::Size(163, 22);
@@ -261,7 +270,7 @@ namespace ProyectoSemaforosView {
 			// 
 			// textBox5
 			// 
-			this->textBox5->Location = System::Drawing::Point(101, 37);
+			this->textBox5->Location = System::Drawing::Point(110, 37);
 			this->textBox5->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->textBox5->Name = L"textBox5";
 			this->textBox5->Size = System::Drawing::Size(163, 22);
@@ -296,12 +305,17 @@ namespace ProyectoSemaforosView {
 			this->groupBox2->TabStop = false;
 			this->groupBox2->Text = L"Horario Laboral";
 			// 
-			// textBox7
+			// button2
 			// 
-			this->textBox7->Location = System::Drawing::Point(243, 316);
-			this->textBox7->Name = L"textBox7";
-			this->textBox7->Size = System::Drawing::Size(336, 23);
-			this->textBox7->TabIndex = 3;
+			this->button2->BackColor = System::Drawing::Color::Silver;
+			this->button2->Location = System::Drawing::Point(547, 410);
+			this->button2->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->button2->Name = L"button2";
+			this->button2->Size = System::Drawing::Size(160, 25);
+			this->button2->TabIndex = 6;
+			this->button2->Text = L"Cancelar";
+			this->button2->UseVisualStyleBackColor = false;
+			this->button2->Click += gcnew System::EventHandler(this, &frmCreadorUsuarios::button2_Click);
 			// 
 			// frmCreadorUsuarios
 			// 
@@ -309,6 +323,7 @@ namespace ProyectoSemaforosView {
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->BackColor = System::Drawing::Color::SlateGray;
 			this->ClientSize = System::Drawing::Size(1087, 457);
+			this->Controls->Add(this->button2);
 			this->Controls->Add(this->groupBox2);
 			this->Controls->Add(this->groupBox3);
 			this->Controls->Add(this->button1);
@@ -331,8 +346,8 @@ private: System::Void label8_Click(System::Object^ sender, System::EventArgs^ e)
 }
 private: System::Void comboBox1_SelectedIndexChanged(System::Object^ sender, System::EventArgs^ e) {
 }
-private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
-    		
+	   //Boton de crear usuario
+private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {	
 	int codigo = Convert::ToInt32(this->textBox1->Text);
 	String^ usuario = this->textBox5->Text;
 	String^ contrasena = this->textBox6->Text;
@@ -340,16 +355,19 @@ private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e
 	String^ area = this->comboBox1->Text;
 	String^ telefono = this->textBox3->Text;
 	String^ direccion = this->textBox4->Text;
-	String^ fechaCumpleanhos = this->dateTimePicker1->Text;
+	String^ fechaCumpleanhos = this->textBox7->Text;
 	EmpleadoController^ objEmpleadoController = gcnew EmpleadoController();
 	objEmpleadoController->agregarEmpleado(codigo, usuario, contrasena, nombre, area, telefono, direccion, fechaCumpleanhos);
 	MessageBox::Show("El Empleado ha sido agregado con exito");
 	this->Close();
-
 }
 private: System::Void label2_Click(System::Object^ sender, System::EventArgs^ e) {
 }
 private: System::Void frmCreadorUsuarios_Load(System::Object^ sender, System::EventArgs^ e) {
+}
+	   //Boton de cerrar
+private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e) {
+	Close();
 }
 };
 }
