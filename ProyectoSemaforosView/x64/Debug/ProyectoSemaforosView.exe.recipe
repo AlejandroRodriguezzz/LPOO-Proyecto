@@ -8,7 +8,10 @@
       <FullPath>C:\Users\cdseg\Documents\VisualStudio\ProyectoSemaforos\ProyectoSemaforos\x64\Debug\ProyectoSemaforosController.dll</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\cdseg\Documents\VisualStudio\ProyectoSemaforos\ProyectoSemaforos\x64\Debug\ProyectoSemaforosView.exe</FullPath>
+      <FullPath>C:\Users\cdseg\Source\Repos\LPOO-Proyecto-V2\x64\Debug\ProyectoSemaforosModel.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\cdseg\Source\Repos\LPOO-Proyecto-V2\x64\Debug\ProyectoSemaforosView.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

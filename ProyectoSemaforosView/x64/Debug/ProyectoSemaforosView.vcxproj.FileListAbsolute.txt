@@ -53,3 +53,17 @@ C:\Users\cdseg\Documents\VisualStudio\ProyectoSemaforos\ProyectoSemaforos\Proyec
 C:\Users\cdseg\Documents\VisualStudio\ProyectoSemaforos\ProyectoSemaforos\ProyectoSemaforosView\x64\Debug\ProyectoSemaforosView.vcxproj.GenerateResource.cache
 C:\Users\cdseg\Documents\VisualStudio\ProyectoSemaforos\ProyectoSemaforos\ProyectoSemaforosView\x64\Debug\Proyecto.A2815A57.Up2Date
 C:\Users\cdseg\Documents\VisualStudio\ProyectoSemaforos\ProyectoSemaforos\ProyectoSemaforosView\x64\Debug\ProyectoSemaforosView.frmUsuarioContrasena.resources
+C:\Users\cdseg\source\repos\LPOO-Proyecto-V2\ProyectoSemaforosView\x64\Debug\ProyectoSemaforosView.vcxproj.AssemblyReference.cache
+C:\Users\cdseg\source\repos\LPOO-Proyecto-V2\ProyectoSemaforosView\x64\Debug\ProyectoSemaforosView.frmBandejaEntrada.resources
+C:\Users\cdseg\source\repos\LPOO-Proyecto-V2\ProyectoSemaforosView\x64\Debug\ProyectoSemaforosView.frmCreadorUsuarios.resources
+C:\Users\cdseg\source\repos\LPOO-Proyecto-V2\ProyectoSemaforosView\x64\Debug\ProyectoSemaforosView.frmEditarUsuario.resources
+C:\Users\cdseg\source\repos\LPOO-Proyecto-V2\ProyectoSemaforosView\x64\Debug\ProyectoSemaforosView.frmEliminarUsuario.resources
+C:\Users\cdseg\source\repos\LPOO-Proyecto-V2\ProyectoSemaforosView\x64\Debug\ProyectoSemaforosView.frmEnvioMensajes.resources
+C:\Users\cdseg\source\repos\LPOO-Proyecto-V2\ProyectoSemaforosView\x64\Debug\ProyectoSemaforosView.frmLogin.resources
+C:\Users\cdseg\source\repos\LPOO-Proyecto-V2\ProyectoSemaforosView\x64\Debug\ProyectoSemaforosView.frmUsuarioContrasena.resources
+C:\Users\cdseg\source\repos\LPOO-Proyecto-V2\ProyectoSemaforosView\x64\Debug\ProyectoSemaforosView.frmVistaAdministrador.resources
+C:\Users\cdseg\source\repos\LPOO-Proyecto-V2\ProyectoSemaforosView\x64\Debug\ProyectoSemaforosView.frmVistaOperario.resources
+C:\Users\cdseg\source\repos\LPOO-Proyecto-V2\ProyectoSemaforosView\x64\Debug\ProyectoSemaforosView.frmVistaRH.resources
+C:\Users\cdseg\source\repos\LPOO-Proyecto-V2\ProyectoSemaforosView\x64\Debug\ProyectoSemaforosView.frmVistaSupervisor.resources
+C:\Users\cdseg\source\repos\LPOO-Proyecto-V2\ProyectoSemaforosView\x64\Debug\ProyectoSemaforosView.vcxproj.GenerateResource.cache
+C:\Users\cdseg\source\repos\LPOO-Proyecto-V2\ProyectoSemaforosView\x64\Debug\Proyecto.A2815A57.Up2Date
