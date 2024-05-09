@@ -1,0 +1,6 @@
+C:\ti\LPOO\Proyecto1.3\ProyectoSemaforos\ProyectoSemaforosController\x64\Debug\ProyectoSemaforosController.vcxproj.AssemblyReference.cache
+C:\ti\LPOO\Proyecto1.3\ProyectoSemaforos\ProyectoSemaforosController\x64\Debug\Proyecto.B4FFA13F.Up2Date
+D:\Users\alulab14\Downloads\ProyectoSemaforos_Admin\ProyectoSemaforos\ProyectoSemaforosController\x64\Debug\ProyectoSemaforosController.vcxproj.AssemblyReference.cache
+D:\Users\alulab14\Downloads\ProyectoSemaforos_Admin\ProyectoSemaforos\ProyectoSemaforosController\x64\Debug\ProyectoSemaforosController.vcxproj.CopyComplete
+C:\Users\cdseg\Documents\VisualStudio\ProyectoSemaforos\ProyectoSemaforos\ProyectoSemaforosController\x64\Debug\ProyectoSemaforosController.vcxproj.AssemblyReference.cache
+C:\Users\cdseg\Documents\VisualStudio\ProyectoSemaforos\ProyectoSemaforos\ProyectoSemaforosController\x64\Debug\Proyecto.B4FFA13F.Up2Date
