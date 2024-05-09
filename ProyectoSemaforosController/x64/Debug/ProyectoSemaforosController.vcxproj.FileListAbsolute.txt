@@ -1,2 +1,0 @@
-A:\Universidad\LPOO\ProyectoSemaforos\ProyectoSemaforosController\x64\Debug\ProyectoSemaforosController.vcxproj.AssemblyReference.cache
-A:\Universidad\LPOO\ProyectoSemaforos\ProyectoSemaforosController\x64\Debug\Proyecto.B4FFA13F.Up2Date
