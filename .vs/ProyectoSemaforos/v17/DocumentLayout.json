@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\cdseg\\Documents\\VisualStudio\\ProyectoSemaforos\\ProyectoSemaforos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A5027C93-668B-4318-B044-6E7011B4DE03}|ProyectoSemaforosView\\ProyectoSemaforosView.vcxproj|C:\\Users\\cdseg\\Documents\\VisualStudio\\ProyectoSemaforos\\ProyectoSemaforos\\ProyectoSemaforosView\\frmLogin.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form",
+      "RelativeMoniker": "D:0:0:{A5027C93-668B-4318-B044-6E7011B4DE03}|ProyectoSemaforosView\\ProyectoSemaforosView.vcxproj|solutionrelative:ProyectoSemaforosView\\frmLogin.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5027C93-668B-4318-B044-6E7011B4DE03}|ProyectoSemaforosView\\ProyectoSemaforosView.vcxproj|C:\\Users\\cdseg\\Documents\\VisualStudio\\ProyectoSemaforos\\ProyectoSemaforos\\ProyectoSemaforosView\\frmUsuarioContrasena.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form",
+      "RelativeMoniker": "D:0:0:{A5027C93-668B-4318-B044-6E7011B4DE03}|ProyectoSemaforosView\\ProyectoSemaforosView.vcxproj|solutionrelative:ProyectoSemaforosView\\frmUsuarioContrasena.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmLogin.h [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\cdseg\\Documents\\VisualStudio\\ProyectoSemaforos\\ProyectoSemaforos\\ProyectoSemaforosView\\frmLogin.h",
+              "RelativeDocumentMoniker": "ProyectoSemaforosView\\frmLogin.h",
+              "ToolTip": "C:\\Users\\cdseg\\Documents\\VisualStudio\\ProyectoSemaforos\\ProyectoSemaforos\\ProyectoSemaforosView\\frmLogin.h [Dise\u00F1o]",
+              "RelativeToolTip": "ProyectoSemaforosView\\frmLogin.h [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-09T19:11:31.724Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmUsuarioContrasena.h [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\cdseg\\Documents\\VisualStudio\\ProyectoSemaforos\\ProyectoSemaforos\\ProyectoSemaforosView\\frmUsuarioContrasena.h",
+              "RelativeDocumentMoniker": "ProyectoSemaforosView\\frmUsuarioContrasena.h",
+              "ToolTip": "C:\\Users\\cdseg\\Documents\\VisualStudio\\ProyectoSemaforos\\ProyectoSemaforos\\ProyectoSemaforosView\\frmUsuarioContrasena.h [Dise\u00F1o]",
+              "RelativeToolTip": "ProyectoSemaforosView\\frmUsuarioContrasena.h [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-09T19:11:14.135Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
