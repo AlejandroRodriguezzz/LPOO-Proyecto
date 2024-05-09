@@ -1,0 +1,196 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly ProyectoSemaforosModel, Version=0.0.*, Culture=Todos los idiomas (todos los países): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class ProyectoSemaforosModel.Empleado: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int32, System.String, System.String, System.String, System.String, System.String, System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    getCodigo(): PrivateScope, Public, HideBySig
+    setCodigo(Int32): PrivateScope, Public, HideBySig
+    getUsuario(): PrivateScope, Public, HideBySig
+    setUsuario(String): PrivateScope, Public, HideBySig
+    getContrasena(): PrivateScope, Public, HideBySig
+    setContrasena(String): PrivateScope, Public, HideBySig
+    getNombre(): PrivateScope, Public, HideBySig
+    setNombre(String): PrivateScope, Public, HideBySig
+    getArea(): PrivateScope, Public, HideBySig
+    setArea(String): PrivateScope, Public, HideBySig
+    getTelefono(): PrivateScope, Public, HideBySig
+    setTelefono(String): PrivateScope, Public, HideBySig
+    getDireccion(): PrivateScope, Public, HideBySig
+    setDireccion(String): PrivateScope, Public, HideBySig
+    getFechaCumpleanhos(): PrivateScope, Public, HideBySig
+    setFechaCumpleanhos(String): PrivateScope, Public, HideBySig
+Class ProyectoSemaforosModel.Supervisor: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ProyectoSemaforosModel.Empleado
+    Void .ctor(Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    getCodigo(): PrivateScope, Public, HideBySig
+    setCodigo(Int32): PrivateScope, Public, HideBySig
+Class ProyectoSemaforosModel.Operario: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ProyectoSemaforosModel.Empleado
+    Void .ctor(Int32, System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.String, ProyectoSemaforosModel.Supervisor): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    getHoraIngreso(): PrivateScope, Public, HideBySig
+    setHoraIngreso(String): PrivateScope, Public, HideBySig
+    getHoraSalida(): PrivateScope, Public, HideBySig
+    setHoraSalida(String): PrivateScope, Public, HideBySig
+    getDiasTrabajo(): PrivateScope, Public, HideBySig
+    setDiasTrabajo(String): PrivateScope, Public, HideBySig
+    getObjSupervisor(): PrivateScope, Public, HideBySig
+    setObjSupervisor(Supervisor): PrivateScope, Public, HideBySig
+Class ProyectoSemaforosModel.DetalleEmergencia: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int32, System.String, System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    getCodigo(): PrivateScope, Public, HideBySig
+    setCodigo(Int32): PrivateScope, Public, HideBySig
+    getTipoEmergencia(): PrivateScope, Public, HideBySig
+    setTipoEmergencia(String): PrivateScope, Public, HideBySig
+    getUbicacion(): PrivateScope, Public, HideBySig
+    setUbicacion(String): PrivateScope, Public, HideBySig
+    getHoraRegistrada(): PrivateScope, Public, HideBySig
+    setHoraRegistrada(String): PrivateScope, Public, HideBySig
+Class ProyectoSemaforosModel.ServicioEmergencia: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int32, System.String, ProyectoSemaforosModel.Operario, System.Collections.Generic.List`1[ProyectoSemaforosModel.DetalleEmergencia]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    getCodigo(): PrivateScope, Public, HideBySig
+    setCodigo(Int32): PrivateScope, Public, HideBySig
+    getContacto(): PrivateScope, Public, HideBySig
+    setContacto(String): PrivateScope, Public, HideBySig
+    getObjOperario(): PrivateScope, Public, HideBySig
+    setObjOperario(Operario): PrivateScope, Public, HideBySig
+    getListaDetalleEmergencia(): PrivateScope, Public, HideBySig
+    setListaDetalleEmergencia(List`1): PrivateScope, Public, HideBySig
+Class ProyectoSemaforosModel.Vehiculo: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int32, Int32, ProyectoSemaforosModel.ServicioEmergencia): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    getCodigo(): PrivateScope, Public, HideBySig
+    setCodigo(Int32): PrivateScope, Public, HideBySig
+    getTiempoEspera(): PrivateScope, Public, HideBySig
+    setTiempoEspera(Int32): PrivateScope, Public, HideBySig
+    getServicioEmergencia(): PrivateScope, Public, HideBySig
+    setServicioEmergencia(ServicioEmergencia): PrivateScope, Public, HideBySig
+Class ProyectoSemaforosModel.Sensor: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int32, Double, Boolean, System.Collections.Generic.List`1[ProyectoSemaforosModel.Vehiculo]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    getCodigo(): PrivateScope, Public, HideBySig
+    setCodigo(Int32): PrivateScope, Public, HideBySig
+    getDistanciaVehiculo(): PrivateScope, Public, HideBySig
+    setDistanciaVehiculo(Double): PrivateScope, Public, HideBySig
+    getDetectaVehiculo(): PrivateScope, Public, HideBySig
+    setDetectaVehiculo(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig
+    getListaVehiculo(): PrivateScope, Public, HideBySig
+    setListaVehiculo(List`1): PrivateScope, Public, HideBySig
+Class ProyectoSemaforosModel.AccionOperario: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int32, Boolean, Boolean, ProyectoSemaforosModel.Operario, System.Collections.Generic.List`1[ProyectoSemaforosModel.Sensor]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    getCodigo(): PrivateScope, Public, HideBySig
+    setCodigo(Int32): PrivateScope, Public, HideBySig
+    getDarPrioridadA(): PrivateScope, Public, HideBySig
+    setDarPrioridadA(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig
+    getDarPrioridadB(): PrivateScope, Public, HideBySig
+    setDarPrioridadB(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig
+    getObjOperario(): PrivateScope, Public, HideBySig
+    setObjOperario(Operario): PrivateScope, Public, HideBySig
+    getListaSensor(): PrivateScope, Public, HideBySig
+    setListaSensor(List`1): PrivateScope, Public, HideBySig
+Class ProyectoSemaforosModel.ControlSupervisor: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int32, System.String, ProyectoSemaforosModel.Supervisor): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    getCodigo(): PrivateScope, Public, HideBySig
+    setCodigo(Int32): PrivateScope, Public, HideBySig
+    getAnalisisDesempeno(): PrivateScope, Public, HideBySig
+    setAnalisisDesempeno(String): PrivateScope, Public, HideBySig
+    getObjSupervisor(): PrivateScope, Public, HideBySig
+    setObjSupervisor(Supervisor): PrivateScope, Public, HideBySig
+Class ProyectoSemaforosModel.Semaforo: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int32, System.String, Int32, Int32, Int32, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    getCodigo(): PrivateScope, Public, HideBySig
+    setCodigo(Int32): PrivateScope, Public, HideBySig
+    getEstadoColor(): PrivateScope, Public, HideBySig
+    setEstadoColor(String): PrivateScope, Public, HideBySig
+    getEstadoTiempo(): PrivateScope, Public, HideBySig
+    setEstadoTiempo(Int32): PrivateScope, Public, HideBySig
+    getTiempoMaxVerde(): PrivateScope, Public, HideBySig
+    setTiempoMaxVerde(Int32): PrivateScope, Public, HideBySig
+    getTiempoMaxRojo(): PrivateScope, Public, HideBySig
+    setTiempoMaxRojo(Int32): PrivateScope, Public, HideBySig
+    getTiempoMaxAmbar(): PrivateScope, Public, HideBySig
+    setTiempoMaxAmbar(Int32): PrivateScope, Public, HideBySig
+Class ProyectoSemaforosModel.Display: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int32, System.String, ProyectoSemaforosModel.Semaforo): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    getCodigo(): PrivateScope, Public, HideBySig
+    setCodigo(Int32): PrivateScope, Public, HideBySig
+    getMostrarEstado(): PrivateScope, Public, HideBySig
+    setMostrarEstado(String): PrivateScope, Public, HideBySig
+    getObjSemaforo(): PrivateScope, Public, HideBySig
+    setObjSemaforo(Semaforo): PrivateScope, Public, HideBySig
+Class ProyectoSemaforosModel.Transito: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int32, System.String, System.Collections.Generic.List`1[ProyectoSemaforosModel.Sensor]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    getCodigo(): PrivateScope, Public, HideBySig
+    setCodigo(Int32): PrivateScope, Public, HideBySig
+    getEstadoTransito(): PrivateScope, Public, HideBySig
+    setEstadoTransito(String): PrivateScope, Public, HideBySig
+    getListaSensor(): PrivateScope, Public, HideBySig
+    setListaSensor(List`1): PrivateScope, Public, HideBySig
+Class ProyectoSemaforosModel.InterseccionAvenidas: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int32, System.String, Int32, Int32, System.Collections.Generic.List`1[ProyectoSemaforosModel.Transito], System.Collections.Generic.List`1[ProyectoSemaforosModel.Semaforo]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    getCodigo(): PrivateScope, Public, HideBySig
+    setCodigo(Int32): PrivateScope, Public, HideBySig
+    getNombresAvenidas(): PrivateScope, Public, HideBySig
+    setNombresAvenidas(String): PrivateScope, Public, HideBySig
+    getCantidadAvenidas(): PrivateScope, Public, HideBySig
+    setCantidadAvenidas(Int32): PrivateScope, Public, HideBySig
+    getCantidadSemaforos(): PrivateScope, Public, HideBySig
+    setCantidadSemaforos(Int32): PrivateScope, Public, HideBySig
+    getListaTransito(): PrivateScope, Public, HideBySig
+    setListaTransito(List`1): PrivateScope, Public, HideBySig
+    getListaSemaforo(): PrivateScope, Public, HideBySig
+    setListaSemaforo(List`1): PrivateScope, Public, HideBySig
+Class ProyectoSemaforosModel.ReporteRH: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int32, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    getCodigo(): PrivateScope, Public, HideBySig
+    setCodigo(Int32): PrivateScope, Public, HideBySig
+    getReporteRH(): PrivateScope, Public, HideBySig
+    setReporteRH(String): PrivateScope, Public, HideBySig
+Class ProyectoSemaforosModel.RecursosHumanos: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ProyectoSemaforosModel.Empleado
+    Void .ctor(Int32, System.Collections.Generic.List`1[ProyectoSemaforosModel.ReporteRH]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    getCodigo(): PrivateScope, Public, HideBySig
+    setCodigo(Int32): PrivateScope, Public, HideBySig
+    getListaReporteRH(): PrivateScope, Public, HideBySig
+    setListaReporteRH(List`1): PrivateScope, Public, HideBySig
+Class ProyectoSemaforosModel.ReporteTransito: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int32, System.String, ProyectoSemaforosModel.Operario): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    getCodigo(): PrivateScope, Public, HideBySig
+    setCodigo(Int32): PrivateScope, Public, HideBySig
+    getReporteDelDia(): PrivateScope, Public, HideBySig
+    setReporteDelDia(String): PrivateScope, Public, HideBySig
+    getObjOperario(): PrivateScope, Public, HideBySig
+    setObjOperario(Operario): PrivateScope, Public, HideBySig
