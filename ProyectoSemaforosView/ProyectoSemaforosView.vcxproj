@@ -127,6 +127,7 @@
     <ClCompile Include="frmEliminarUsuario.cpp" />
     <ClCompile Include="frmEnvioMensajes.cpp" />
     <ClCompile Include="frmLogin.cpp" />
+    <ClCompile Include="frmUsuarioContrasena.cpp" />
     <ClCompile Include="frmVistaAdministrador.cpp" />
     <ClCompile Include="frmVistaOperario.cpp" />
     <ClCompile Include="frmVistaSupervisor.cpp" />
@@ -160,6 +161,9 @@
     <ClInclude Include="frmLogin.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="frmUsuarioContrasena.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
     <ClInclude Include="frmVistaAdministrador.h">
       <FileType>CppForm</FileType>
     </ClInclude>
@@ -191,6 +195,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmLogin.resx">
       <DependentUpon>frmLogin.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUsuarioContrasena.resx">
+      <DependentUpon>frmUsuarioContrasena.h</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmVistaAdministrador.resx">
       <DependentUpon>frmVistaAdministrador.h</DependentUpon>
