@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Users\cdseg\Documents\VisualStudio\ProyectoSemaforos\ProyectoSemaforos\x64\Debug\ProyectoSemaforosModel.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\cdseg\Documents\VisualStudio\ProyectoSemaforos\ProyectoSemaforos\x64\Debug\ProyectoSemaforosController.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\cdseg\Documents\VisualStudio\ProyectoSemaforos\ProyectoSemaforos\x64\Debug\ProyectoSemaforosView.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>
