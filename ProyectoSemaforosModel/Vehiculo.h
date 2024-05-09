@@ -23,4 +23,3 @@ namespace ProyectoSemaforosModel {
 		void setServicioEmergencia(ServicioEmergencia^ objServicioEmergencia);
 	};
 }
-//Alohaaaaa
