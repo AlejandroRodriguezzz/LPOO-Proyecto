@@ -262,7 +262,13 @@ private: System::Void dataGridView2_CellContentClick(System::Object^ sender, Sys
 private: System::Void label1_Click(System::Object^ sender, System::EventArgs^ e) {
 }
 private: System::Void button3_Click(System::Object^ sender, System::EventArgs^ e) {
-
+	String^ nombreEmpleado = this->textBox1->Text;
+	EmpleadoController^ objEmpleado = gcnew EmpleadoController();
+	List<Empleado^>^ listaEmpleados = objEmpleado->buscarEmpleadoxNombre(nombreEmpleado);
+	if (nombreEmpleado == nullptr) {
+		List<Empleado^>^ listaEmpleados = objEmpleado->buscarEmpleadoAll();
+	}
+	MostrarGrilla(listaEmpleados);
 }
 private: System::Void frmVistaRH_Load(System::Object^ sender, System::EventArgs^ e) {
 	EmpleadoController^ objEmpleado = gcnew EmpleadoController();
