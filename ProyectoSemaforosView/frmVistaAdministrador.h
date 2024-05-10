@@ -49,8 +49,8 @@ namespace ProyectoSemaforosView {
 	private: System::Windows::Forms::Button^ button3;
 	private: System::Windows::Forms::Label^ label1;
 	private: System::Windows::Forms::TextBox^ textBox1;
-	private: System::Windows::Forms::Label^ label2;
-	private: System::Windows::Forms::CheckedListBox^ checkedListBox1;
+
+
 	private: System::Windows::Forms::Button^ button4;
 	private: System::Windows::Forms::Button^ button5;
 	private: System::Windows::Forms::DataGridViewTextBoxColumn^ Column1;
@@ -114,8 +114,6 @@ namespace ProyectoSemaforosView {
 			this->button3 = (gcnew System::Windows::Forms::Button());
 			this->label1 = (gcnew System::Windows::Forms::Label());
 			this->textBox1 = (gcnew System::Windows::Forms::TextBox());
-			this->label2 = (gcnew System::Windows::Forms::Label());
-			this->checkedListBox1 = (gcnew System::Windows::Forms::CheckedListBox());
 			this->button4 = (gcnew System::Windows::Forms::Button());
 			this->button5 = (gcnew System::Windows::Forms::Button());
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridView1))->BeginInit();
@@ -129,7 +127,7 @@ namespace ProyectoSemaforosView {
 					this->Column2, this->Column7, this->Column3, this->Column4, this->telefon5, this->Column5, this->Column6
 			});
 			this->dataGridView1->Location = System::Drawing::Point(27, 69);
-			this->dataGridView1->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+			this->dataGridView1->Margin = System::Windows::Forms::Padding(2);
 			this->dataGridView1->Name = L"dataGridView1";
 			this->dataGridView1->RowHeadersWidth = 62;
 			this->dataGridView1->RowTemplate->Height = 28;
@@ -197,8 +195,8 @@ namespace ProyectoSemaforosView {
 			// 
 			this->button1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->button1->Location = System::Drawing::Point(66, 286);
-			this->button1->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+			this->button1->Location = System::Drawing::Point(94, 286);
+			this->button1->Margin = System::Windows::Forms::Padding(2);
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(94, 34);
 			this->button1->TabIndex = 1;
@@ -211,7 +209,7 @@ namespace ProyectoSemaforosView {
 			this->button2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button2->Location = System::Drawing::Point(267, 286);
-			this->button2->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+			this->button2->Margin = System::Windows::Forms::Padding(2);
 			this->button2->Name = L"button2";
 			this->button2->Size = System::Drawing::Size(94, 34);
 			this->button2->TabIndex = 2;
@@ -223,8 +221,8 @@ namespace ProyectoSemaforosView {
 			// 
 			this->button3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->button3->Location = System::Drawing::Point(458, 286);
-			this->button3->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+			this->button3->Location = System::Drawing::Point(447, 286);
+			this->button3->Margin = System::Windows::Forms::Padding(2);
 			this->button3->Name = L"button3";
 			this->button3->Size = System::Drawing::Size(94, 34);
 			this->button3->TabIndex = 3;
@@ -250,42 +248,16 @@ namespace ProyectoSemaforosView {
 			this->textBox1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->textBox1->Location = System::Drawing::Point(135, 25);
-			this->textBox1->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+			this->textBox1->Margin = System::Windows::Forms::Padding(2);
 			this->textBox1->Name = L"textBox1";
 			this->textBox1->Size = System::Drawing::Size(340, 26);
 			this->textBox1->TabIndex = 5;
 			this->textBox1->TextChanged += gcnew System::EventHandler(this, &frmVistaAdministrador::textBox1_TextChanged);
 			// 
-			// label2
-			// 
-			this->label2->AutoSize = true;
-			this->label2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(0)));
-			this->label2->Location = System::Drawing::Point(640, 28);
-			this->label2->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
-			this->label2->Name = L"label2";
-			this->label2->Size = System::Drawing::Size(118, 20);
-			this->label2->TabIndex = 4;
-			this->label2->Text = L"Filtrar por Área:";
-			this->label2->Click += gcnew System::EventHandler(this, &frmVistaAdministrador::label2_Click);
-			// 
-			// checkedListBox1
-			// 
-			this->checkedListBox1->FormattingEnabled = true;
-			this->checkedListBox1->Items->AddRange(gcnew cli::array< System::Object^  >(4) {
-				L"Operario", L"Supervisor", L"Administrador",
-					L"Recursos Humanos"
-			});
-			this->checkedListBox1->Location = System::Drawing::Point(638, 58);
-			this->checkedListBox1->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
-			this->checkedListBox1->Name = L"checkedListBox1";
-			this->checkedListBox1->Size = System::Drawing::Size(128, 49);
-			this->checkedListBox1->TabIndex = 6;
-			// 
 			// button4
 			// 
-			this->button4->Location = System::Drawing::Point(639, 175);
-			this->button4->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+			this->button4->Location = System::Drawing::Point(641, 157);
+			this->button4->Margin = System::Windows::Forms::Padding(2);
 			this->button4->Name = L"button4";
 			this->button4->Size = System::Drawing::Size(121, 37);
 			this->button4->TabIndex = 7;
@@ -297,7 +269,7 @@ namespace ProyectoSemaforosView {
 			this->button5->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button5->Location = System::Drawing::Point(489, 25);
-			this->button5->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+			this->button5->Margin = System::Windows::Forms::Padding(2);
 			this->button5->Name = L"button5";
 			this->button5->Size = System::Drawing::Size(94, 26);
 			this->button5->TabIndex = 8;
@@ -312,15 +284,13 @@ namespace ProyectoSemaforosView {
 			this->ClientSize = System::Drawing::Size(799, 345);
 			this->Controls->Add(this->button5);
 			this->Controls->Add(this->button4);
-			this->Controls->Add(this->checkedListBox1);
 			this->Controls->Add(this->textBox1);
-			this->Controls->Add(this->label2);
 			this->Controls->Add(this->label1);
 			this->Controls->Add(this->button3);
 			this->Controls->Add(this->button2);
 			this->Controls->Add(this->button1);
 			this->Controls->Add(this->dataGridView1);
-			this->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+			this->Margin = System::Windows::Forms::Padding(2);
 			this->Name = L"frmVistaAdministrador";
 			this->Text = L"Administrador de Usuarios";
 			this->Load += gcnew System::EventHandler(this, &frmVistaAdministrador::frmVistaAdministrador_Load);
