@@ -1,10 +1,2 @@
-﻿  frmBandejaEntrada.cpp
-  frmLogin.cpp
-  frmUsuarioContrasena.cpp
-  frmVistaRH.cpp
-  frmVistaSupervisor.cpp
-  main.cpp
-C:\Users\cdseg\source\repos\LPOO-Proyecto-V2\ProyectoSemaforosView\main.cpp(15,1): warning C4829: Parámetros posiblemente incorrectos para la función main. Utilice 'int main(Platform::Array<Platform::String^>^ argv)'
-  Generando código...
-  frmBandejaEntrada.obj : se encontró un módulo MSIL; vinculación incremental deshabilitada para MSIL; ejecutando vínculo completo
-  ProyectoSemaforosView.vcxproj -> C:\Users\cdseg\Source\Repos\LPOO-Proyecto-V2\x64\Debug\ProyectoSemaforosView.exe
+﻿  frmBandejaEntrada.obj : se encontró un módulo MSIL; vinculación incremental deshabilitada para MSIL; ejecutando vínculo completo
+  ProyectoSemaforosView.vcxproj -> D:\Users\alulab14\Downloads\ProyectoSemaforos\x64\Debug\ProyectoSemaforosView.exe

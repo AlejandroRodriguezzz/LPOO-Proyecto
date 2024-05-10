@@ -1,3 +1,4 @@
 1;Nico12;1221;Nicolas;Operario;111 111 111; Av. Universitaria;12 de Agosto
 2;Jorge13;1331;Jorge;Administrador;222 222 222;Av. Rivaguero;13 de Agosto
 3;Carlos19;1991;Carlos;Supervisor;333 333 333;Av. Casa;19 de Agosto
+4;Alex24;2442;Alex;RH;444 444 444;Av. La Marina;24 de Octubre
