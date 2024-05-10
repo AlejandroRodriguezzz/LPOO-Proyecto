@@ -2,3 +2,4 @@ C:\ti\LPOO\Proyecto1.3\ProyectoSemaforos\ProyectoSemaforosModel\x64\Debug\Proyec
 D:\Users\alulab14\Downloads\ProyectoSemaforos_Admin\ProyectoSemaforos\ProyectoSemaforosModel\x64\Debug\ProyectoSemaforosModel.vcxproj.AssemblyReference.cache
 D:\Users\alulab14.INF.000\Downloads\ProyectoSemaforos\ProyectoSemaforosModel\x64\Debug\ProyectoSemaforosModel.vcxproj.AssemblyReference.cache
 C:\Users\cdseg\Documents\VisualStudio\ProyectoSemaforos\ProyectoSemaforos\ProyectoSemaforosModel\x64\Debug\ProyectoSemaforosModel.vcxproj.AssemblyReference.cache
+D:\Users\alulab14\Downloads\ProyectoSemaforos\ProyectoSemaforosModel\x64\Debug\ProyectoSemaforosModel.vcxproj.AssemblyReference.cache
