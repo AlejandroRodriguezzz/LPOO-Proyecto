@@ -1,2 +1,3 @@
 ﻿  frmBandejaEntrada.obj : se encontró un módulo MSIL; vinculación incremental deshabilitada para MSIL; ejecutando vínculo completo
-LINK : fatal error LNK1201: error al escribir en la base de datos del programa 'D:\Users\alulab14\Downloads\ProyectoSemaforos\x64\Debug\ProyectoSemaforosView.pdb'; compruebe si tiene suficiente espacio en disco, si la ruta es válida o si tiene privilegios suficientes
+frmUsuarioContrasena.obj : error LNK2022: error en la operación con metadatos (801311D6) : Existe un número diferente de métodos en tipos duplicados (ProyectoSemaforosView.frmBandejaEntrada): (0x02000007).
+LINK : fatal error LNK1255: error de vinculación debido a errores de metadatos
