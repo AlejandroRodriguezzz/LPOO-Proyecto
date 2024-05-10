@@ -97,13 +97,13 @@ namespace ProyectoSemaforosView {
 			this->textBox1 = (gcnew System::Windows::Forms::TextBox());
 			this->label1 = (gcnew System::Windows::Forms::Label());
 			this->dataGridView2 = (gcnew System::Windows::Forms::DataGridView());
-			this->button1 = (gcnew System::Windows::Forms::Button());
-			this->button2 = (gcnew System::Windows::Forms::Button());
-			this->button3 = (gcnew System::Windows::Forms::Button());
 			this->dataGridViewTextBoxColumn1 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
 			this->dataGridViewTextBoxColumn3 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
 			this->dataGridViewTextBoxColumn2 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
 			this->Column1 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
+			this->button1 = (gcnew System::Windows::Forms::Button());
+			this->button2 = (gcnew System::Windows::Forms::Button());
+			this->button3 = (gcnew System::Windows::Forms::Button());
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridView2))->BeginInit();
 			this->SuspendLayout();
 			// 
@@ -146,6 +146,34 @@ namespace ProyectoSemaforosView {
 			this->dataGridView2->TabIndex = 12;
 			this->dataGridView2->CellContentClick += gcnew System::Windows::Forms::DataGridViewCellEventHandler(this, &frmVistaRH::dataGridView2_CellContentClick);
 			// 
+			// dataGridViewTextBoxColumn1
+			// 
+			this->dataGridViewTextBoxColumn1->HeaderText = L"Trabajador";
+			this->dataGridViewTextBoxColumn1->MinimumWidth = 8;
+			this->dataGridViewTextBoxColumn1->Name = L"dataGridViewTextBoxColumn1";
+			this->dataGridViewTextBoxColumn1->Width = 150;
+			// 
+			// dataGridViewTextBoxColumn3
+			// 
+			this->dataGridViewTextBoxColumn3->HeaderText = L"Código";
+			this->dataGridViewTextBoxColumn3->MinimumWidth = 8;
+			this->dataGridViewTextBoxColumn3->Name = L"dataGridViewTextBoxColumn3";
+			this->dataGridViewTextBoxColumn3->Width = 150;
+			// 
+			// dataGridViewTextBoxColumn2
+			// 
+			this->dataGridViewTextBoxColumn2->HeaderText = L"Área";
+			this->dataGridViewTextBoxColumn2->MinimumWidth = 8;
+			this->dataGridViewTextBoxColumn2->Name = L"dataGridViewTextBoxColumn2";
+			this->dataGridViewTextBoxColumn2->Width = 150;
+			// 
+			// Column1
+			// 
+			this->Column1->HeaderText = L"Teléfono";
+			this->Column1->MinimumWidth = 8;
+			this->Column1->Name = L"Column1";
+			this->Column1->Width = 150;
+			// 
 			// button1
 			// 
 			this->button1->Location = System::Drawing::Point(166, 293);
@@ -178,39 +206,12 @@ namespace ProyectoSemaforosView {
 			this->button3->UseVisualStyleBackColor = true;
 			this->button3->Click += gcnew System::EventHandler(this, &frmVistaRH::button3_Click);
 			// 
-			// dataGridViewTextBoxColumn1
-			// 
-			this->dataGridViewTextBoxColumn1->HeaderText = L"Trabajador";
-			this->dataGridViewTextBoxColumn1->MinimumWidth = 8;
-			this->dataGridViewTextBoxColumn1->Name = L"dataGridViewTextBoxColumn1";
-			this->dataGridViewTextBoxColumn1->Width = 150;
-			// 
-			// dataGridViewTextBoxColumn3
-			// 
-			this->dataGridViewTextBoxColumn3->HeaderText = L"Código";
-			this->dataGridViewTextBoxColumn3->MinimumWidth = 8;
-			this->dataGridViewTextBoxColumn3->Name = L"dataGridViewTextBoxColumn3";
-			this->dataGridViewTextBoxColumn3->Width = 150;
-			// 
-			// dataGridViewTextBoxColumn2
-			// 
-			this->dataGridViewTextBoxColumn2->HeaderText = L"Área";
-			this->dataGridViewTextBoxColumn2->MinimumWidth = 8;
-			this->dataGridViewTextBoxColumn2->Name = L"dataGridViewTextBoxColumn2";
-			this->dataGridViewTextBoxColumn2->Width = 150;
-			// 
-			// Column1
-			// 
-			this->Column1->HeaderText = L"Teléfono";
-			this->Column1->MinimumWidth = 8;
-			this->Column1->Name = L"Column1";
-			this->Column1->Width = 150;
-			// 
 			// frmVistaRH
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(1122, 344);
+			this->BackColor = System::Drawing::Color::LightSlateGray;
+			this->ClientSize = System::Drawing::Size(854, 344);
 			this->Controls->Add(this->button3);
 			this->Controls->Add(this->button2);
 			this->Controls->Add(this->button1);
@@ -219,7 +220,7 @@ namespace ProyectoSemaforosView {
 			this->Controls->Add(this->label1);
 			this->Margin = System::Windows::Forms::Padding(2);
 			this->Name = L"frmVistaRH";
-			this->Text = L"MyForm";
+			this->Text = L"Recursos Humanos";
 			this->Load += gcnew System::EventHandler(this, &frmVistaRH::frmVistaRH_Load);
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridView2))->EndInit();
 			this->ResumeLayout(false);
@@ -265,11 +266,13 @@ private: System::Void button3_Click(System::Object^ sender, System::EventArgs^ e
 	String^ nombreEmpleado = this->textBox1->Text;
 	EmpleadoController^ objEmpleado = gcnew EmpleadoController();
 	List<Empleado^>^ listaEmpleados = objEmpleado->buscarEmpleadoxNombre(nombreEmpleado);
-	if (nombreEmpleado == nullptr) {
+	if ((this->textBox1->Text)=="") {
 		List<Empleado^>^ listaEmpleados = objEmpleado->buscarEmpleadoAll();
 	}
 	MostrarGrilla(listaEmpleados);
 }
+
+	  
 private: System::Void frmVistaRH_Load(System::Object^ sender, System::EventArgs^ e) {
 	EmpleadoController^ objEmpleado = gcnew EmpleadoController();
 	List<Empleado^>^ listaEmpleados = objEmpleado->buscarEmpleadoAll();
